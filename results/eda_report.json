@@ -1,0 +1,73 @@
+{
+ "total": 1800,
+ "unreadable": 0,
+ "duplicates": 1,
+ "sizes": [
+  {
+   "h": 200,
+   "w": 200,
+   "n": 1800
+  }
+ ],
+ "after_cleaning": 1799,
+ "per_class": {
+  "crazing": 300,
+  "inclusion": 300,
+  "patches": 299,
+  "pitted_surface": 300,
+  "rolled-in_scale": 300,
+  "scratches": 300
+ },
+ "intensity": {
+  "crazing": {
+   "mean": 141.11,
+   "std": 29.05
+  },
+  "inclusion": {
+   "mean": 106.37,
+   "std": 13.02
+  },
+  "patches": {
+   "mean": 132.56,
+   "std": 54.2
+  },
+  "pitted_surface": {
+   "mean": 176.67,
+   "std": 26.68
+  },
+  "rolled-in_scale": {
+   "mean": 117.91,
+   "std": 16.09
+  },
+  "scratches": {
+   "mean": 95.15,
+   "std": 21.7
+  }
+ },
+ "split": {
+  "test": {
+   "crazing": 45,
+   "inclusion": 45,
+   "patches": 45,
+   "pitted_surface": 45,
+   "rolled-in_scale": 45,
+   "scratches": 45
+  },
+  "train": {
+   "crazing": 210,
+   "inclusion": 210,
+   "patches": 209,
+   "pitted_surface": 210,
+   "rolled-in_scale": 210,
+   "scratches": 210
+  },
+  "val": {
+   "crazing": 45,
+   "inclusion": 45,
+   "patches": 45,
+   "pitted_surface": 45,
+   "rolled-in_scale": 45,
+   "scratches": 45
+  }
+ }
+}
